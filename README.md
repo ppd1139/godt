@@ -1,7 +1,7 @@
 # godt
 A small command-line tool for listing .odt document metadata and adding/removing file extensions.
 
-**Note:** godt operates on documents in the current directory only.
+**Note:** godt operates on all .odt documents in the current directory.
 
 Command format:
 
