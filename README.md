@@ -35,19 +35,19 @@ Command format:
 
 ## Example output:
 
-`$godt lswd
+    $godt lswd
 
-226            Document 12
-148            Document 4
-103            Document 10
-67             Document 8
-41             Document 13
-39             Document 7
-14             Document 2
-14             Document 3
-13             Document 11
-12             Document 6
-12             Document 9
-5              Document 5
-3              Document 1
-`
+    226            Document 12
+    148            Document 4
+    103            Document 10
+    67             Document 8
+    41             Document 13
+    39             Document 7
+    14             Document 2
+    14             Document 3
+    13             Document 11
+    12             Document 6
+    12             Document 9
+    5              Document 5
+    3              Document 1
+
