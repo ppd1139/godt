@@ -7,6 +7,8 @@ Command format:
 
 `godt [argument]`
 
+
+
 ## All available options:
 
 `help` - Show help (list options)
