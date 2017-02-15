@@ -144,7 +144,7 @@ func findInside(name string, fileList []os.FileInfo) bool {
 func main() {
 	arg := os.Args
 	if len(arg) <= 1 {
-		fmt.Println("Error: godt expects an argument.\n" + "Run 'godt help' to see all possible arguments.")
+		fmt.Println("Error: godt expects an option.\n" + "Run 'godt help' to see all possible options.")
 		os.Exit(1)
 	}
 	switch arg[1] {
@@ -417,8 +417,8 @@ func main() {
 		}
 	case "help":
 		fmt.Println("godt operates on .odt documents in the current directory\n\n" +
-			"godt [argument]\n\n" +
-			"Possible arguments:\n\n" +
+			"godt [option]\n\n" +
+			"Possible options:\n\n" +
 			"rmex - Remove .odt extensions\n" +
 			"adex - Add .odt extensions\n" +
 			"lsdc - List by date created\n" +
@@ -432,7 +432,7 @@ func main() {
 			"lsob - List by object count\n" +
 			"help - Show help")
 	default:
-		fmt.Println("Error: argument not recognized.\n" + "Run 'godt help' to see all possible arguments.")
+		fmt.Println("Error: option not recognized.\n" + "Run 'godt help' to see all possible options.")
 		os.Exit(1)
 	}
 
