@@ -37,17 +37,17 @@ Command format:
 
     $godt lswd
 
-    226            DocumentOne
-    148            DocumentTwo
-    103            DocumentThree
-    67             DocumentFour
-    41             DocumentFive
-    39             DocumentSix
-    14             DocumentSeven
-    14             DocumentEight
-    13             DocumentNine
-    12             DocumentTen
-    12             DocumentEleven
-    5              DocumentTwelve
-    3              DocumentThirteen
+    226            DocumentA
+    148            DocumentB
+    103            DocumentL
+    67             DocumentK
+    41             DocumentM
+    39             DocumentJ
+    14             DocumentC
+    14             DocumentI
+    13             DocumentD
+    12             DocumentH
+    12             DocumentE
+    5              DocumentF
+    3              DocumentG
 
