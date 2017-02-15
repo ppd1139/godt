@@ -5,7 +5,7 @@ A small command-line tool for listing .odt document metadata and adding/removing
 
 Command format:
 
-`godt [argument]`
+`godt [option]`
 
 ## All available options:
 
