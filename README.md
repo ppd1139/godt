@@ -35,7 +35,7 @@ Command format:
 
 ## Example output:
 
-    $godt lswd
+    $ godt lswd
 
     226            DocumentA
     148            DocumentB
