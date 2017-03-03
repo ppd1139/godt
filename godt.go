@@ -13,13 +13,8 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+	"log"
 )
-
-func check(err error) {
-	if err != nil {
-		panic(err)
-	}
-}
 
 func unzipDocument(file string) *zip.ReadCloser {
 	unzipped, err := zip.OpenReader(file)
@@ -139,6 +134,12 @@ func findInside(name string, fileList []os.FileInfo) bool {
 		}
 	}
 	return false
+}
+
+func check(err error) {
+	if err != nil {
+		log.Fatal(err)
+	}
 }
 
 func main() {
