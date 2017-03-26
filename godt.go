@@ -1,5 +1,5 @@
 // godt is a program that operates on .odt documents in the current directory.
-// To see all available options run 'godt help'
+// To see all available options run the 'godt help' command.
 package main
 
 import (
